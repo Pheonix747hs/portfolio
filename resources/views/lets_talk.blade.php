@@ -35,6 +35,6 @@
         </div>        
 
         <!-- Clear Text Contact Info -->
-        <p class="mt-4 text-sm text-gray-500 dark:text-gray-400">For direct contact, you can also email me at <span class="font-medium">ojasvinborawke@gmail.com</span> or call me at <span class="font-medium">+91 88885 77550</span>.</p>
+        <p class="mt-4 text-sm text-gray-500 dark:text-gray-400">For direct contact, you can also email me at <span class="font-medium"><a href="mailto:ojasvinborawke@gmail.com?">ojasvinborawke@gmail.com</a></span> or call me at <span class="font-medium">+91 88885 77550</span>.</p>
     </div>
 </div>
