@@ -56,7 +56,8 @@
             <img src="assets/abt_pic.jpg" alt="About Image" style="height: 36vh; width: 19vw">
         </div>
         <div class="text-container align-top ml-1">
-            <div class="text-4xl mb-4 text-teal-600">
+            <div class="text-4xl mb-4 text-teal-600" style="--tw-text-opacity: 1;
+            color: rgb(13 148 136 / var(--tw-text-opacity));">
                 <h6>Learn, Adapt, Excel.</h6>
             </div>
             <p>Hey, I'm Ojasvin Borawke, a student at SPPU. I'm currently in my third year of my Bachelors in Computer Engineering (graduating 2025).</p>
@@ -65,16 +66,16 @@
         </div>
     </div>
     <div class="text-container flex flex-col items-center">
-        <div class="text-4xl mb-4 ">
+        <div class="text-4xl mb-4 " style="--tw-text-opacity: 1;color: rgb(252 111 3 / var(--tw-text-opacity));">
             Skills
-        </div>
-        <div class="flex items-center mb-2">
-            <img src="assets\svgtopng\c--4.png" alt="" style="height: 25px; width: 25px" class="mr-2">
-            <b>C#</b>
         </div>
         <div class="flex items-center mb-2">
             <img src="assets\svgtopng\c.png" alt="" style="height: 25px; width: 25px" class="mr-2">
             <b>C</b>
+        </div>
+        <div class="flex items-center mb-2">
+            <img src="assets\svgtopng\c--4.png" alt="" style="height: 25px; width: 25px" class="mr-2">
+            <b>C#</b>
         </div>
         <div class="flex items-center mb-2">
             <img src="assets\svgtopng\java.png" alt="" style="height: 25px; width: 25px" class="mr-2">
