@@ -19,13 +19,3 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('test_mongodb/', function (Request $request){
-    $connection = DB::connection('mongodb');
-    $msg = 'mongo is accessed';
-    try {
-        $connection->command(['ping'=>1]);
-    } catch (\Exception $e) {
-        $msg = 'MongoDB not accessed'. $e->getMessage();
-    }
-    return['msg'=>$msg];
-});
