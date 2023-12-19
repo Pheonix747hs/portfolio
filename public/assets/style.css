@@ -14,8 +14,9 @@ body {
   height: 100%;
   z-index: 0; /* Set a lower z-index for the grid */
   display: grid; /* Use grid display for the container */
-  grid-template-columns: repeat(auto-fill, minmax(10vh, 0fr));  /* Adjust column size as needed */ /* Adjust the gap between items as needed */
+  grid-template-columns: repeat(auto-fill, minmax(10vh, 0fr)); /* Adjust column size as needed */ /* Adjust the gap between items as needed */
   background-color: transparent;
+  overflow:hidden;
 }
 
 
@@ -23,8 +24,8 @@ body {
 .grid__item {
   position: relative;
   z-index: 1;
-  height:100%;
-  width:100%;
+  height:10vh;
+  width:5vw;
   opacity: 0;
   transition: opacity 2s ease, background-color 0.8s ease 3s;
   background-image: radial-gradient(circle, blue 1px, transparent 2px);
@@ -57,4 +58,3 @@ body {
     z-index: inherit;
   }
 }
-
