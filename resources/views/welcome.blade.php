@@ -7,7 +7,7 @@
     <meta name="referrer" content="no-referrer">
     @vite('resources/css/app.css')
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <title>Your Title</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="assets\style.css">
 </head>
 <body class="flex flex-col items-center h-screen">
