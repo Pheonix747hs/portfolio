@@ -17,19 +17,13 @@ class ViewController extends Controller
 
     public function projects()
 {
-    // Fetch data from MongoDB using the Project model
-    $cardData = Project::all();
+    // Fetch data from the 'projects' table using the Project model
+    $cardDataArray = Project::all();
 
-    // Convert each item to an array
-    $cardDataArray = $cardData->map(function ($item) {
-        return $item->toArray();
-    });
-
-    
-
-    // Continue with your existing code
-    return view('projects', compact('cardDataArray'));
+    // Pass the correct variable name to the view
+    return view('projects', ['cardDataArray' => $cardDataArray]);
 }
+
 
 
 
