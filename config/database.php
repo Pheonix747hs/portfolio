@@ -35,12 +35,6 @@ return [
 
     'connections' => [
 
-        'mongodb' => [
-            'driver' => 'mongodb',
-            'dsn' => env('DB_URI','mongodb+srv://root:root@cluster0.us64ucs.mongodb.net/?retryWrites=true&w=majority'),
-            'database' => 'Laravel',
-        ],
-
         'sqlite' => [
             'driver' => 'sqlite',
             'url' => env('DATABASE_URL'),
