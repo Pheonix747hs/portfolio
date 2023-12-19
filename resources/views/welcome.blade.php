@@ -24,13 +24,13 @@
 
     <!-- Navigation buttons -->
     <div class="flex justify-center items-center flex-grow">
-      <button onclick="loadView('about')" id="triggerButton1" class="text-white py-3 px-4 rounded-md transition duration-150 hover:bg-gray-700 focus:outline-none focus:ring focus:border-blue-300">
+      <button onclick="loadView('about')" class="text-white py-3 px-4 rounded-md transition duration-150 hover:bg-gray-700 focus:outline-none focus:ring focus:border-blue-300">
         About
       </button>
-      <button onclick="loadView('projects')" id="triggerButton2" class="text-white py-3 px-4 rounded-md transition duration-150 hover:bg-gray-700 focus:outline-none focus:ring focus:border-blue-300">
+      <button onclick="loadView('projects')" class="text-white py-3 px-4 rounded-md transition duration-150 hover:bg-gray-700 focus:outline-none focus:ring focus:border-blue-300">
         Projects
       </button>
-      <button onclick="loadView('lets_talk')" id="triggerButton3" class="text-white py-3 px-4 rounded-md transition duration-150 hover:bg-gray-700 focus:outline-none focus:ring focus:border-blue-300">
+      <button onclick="loadView('lets_talk')" class="text-white py-3 px-4 rounded-md transition duration-150 hover:bg-gray-700 focus:outline-none focus:ring focus:border-blue-300">
         Let's Talk
       </button>
       <button onclick="loadView('resume')" class="text-white py-3 px-4 rounded-md transition duration-150 hover:bg-gray-700 focus:outline-none focus:ring focus:border-blue-300">
