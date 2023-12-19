@@ -1,15 +1,19 @@
-// custom-script.js
 $(document).ready(function () {
   var $customGrid = $('.grid2');
   var $gridUnit = $('.grid__item');
 
+  // Set initial grid unit dimensions
   var gridUnitHeight = $gridUnit.height();
   var gridUnitWidth = $gridUnit.width();
 
-  var horzCount = 10;
-  var vertCount = 10;
+  // Calculate the number of grid items both horizontally and vertically
+  var horzCount = Math.ceil($(window).width() / gridUnitWidth);
+  var vertCount = Math.ceil($(window).height() / gridUnitHeight);
 
+  // Update the total number of grid items
   var totalGridItems = horzCount * vertCount;
+
+  // Create and append grid items
   for (var i = 0; i < totalGridItems; i++) {
     var $gridUnitClone = $gridUnit.clone();
     $customGrid.append($gridUnitClone);
@@ -42,5 +46,17 @@ $(document).ready(function () {
   // Remove touch-hover class when touch ends
   $gridUnit.on('touchend', function () {
     $(this).removeClass('touch-hover');
+  });
+
+  // Update grid dimensions on window resize
+  $(window).resize(function () {
+    horzCount = Math.ceil($(window).width() / gridUnitWidth);
+    vertCount = Math.ceil($(window).height() / gridUnitHeight);
+    totalGridItems = horzCount * vertCount;
+    $customGrid.empty(); // Clear existing grid items
+    for (var i = 0; i < totalGridItems; i++) {
+      var $gridUnitClone = $gridUnit.clone();
+      $customGrid.append($gridUnitClone);
+    }
   });
 });
