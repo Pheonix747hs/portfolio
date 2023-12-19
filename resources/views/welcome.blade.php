@@ -17,7 +17,7 @@
   </div>
 
   <!-- "OB" Text -->
-  <nav class="flex items-center justify-between w-full p-4 container" style="z-index: 2; background: rgb(19, 19, 19)">
+  <nav class="flex items-center justify-between w-full p-4 " style="z-index: 2; background: rgb(19, 19, 19)">
     <a href="javascript:void(0);" onclick="reloadOriginalContent()">
       <img src="assets\logo.png" alt="Square Image" style="width: 10vh; height: 10vh;">
     </a>
