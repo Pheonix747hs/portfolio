@@ -27,7 +27,7 @@ $(document).ready(function () {
     var documentHeight = $(document).height();
 
     // Adjust this value based on when you want to trigger more grids
-    var triggerPoint = 0.8; // 80% down the page
+    var triggerPoint = 0.5; // 80% down the page
 
     if (scrollPosition > (triggerPoint * (documentHeight - windowHeight))) {
       addGridItems();
