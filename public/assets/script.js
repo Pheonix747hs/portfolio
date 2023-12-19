@@ -49,14 +49,5 @@ function yourCustomFunction() {
 $(document).ready(function () {
   yourCustomFunction();
 
-  // Add click event listener to the button
-  $('#triggerButton1').on('click', function () {
-    yourCustomFunction();
-  });
-    $('#triggerButton2').on('click', function () {
-    yourCustomFunction();
-  });
-    $('#triggerButton3').on('click', function () {
-    yourCustomFunction();
   });
 });
