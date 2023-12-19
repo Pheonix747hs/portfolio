@@ -1,4 +1,4 @@
-<div class="container mx-auto my-8 max-h-screen overflow-hidden pointer-events-auto" style="z-index: 2">
+<div class="container mx-auto my-8 max-h-screen pointer-events-auto" style="z-index: 2">
     <div class="flex flex-wrap -mx-4">
         @foreach ($cardDataArray as $card)
             <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-4">
