@@ -6,8 +6,8 @@ $(document).ready(function () {
   var gridUnitHeight = $gridUnit.height();
   var gridUnitWidth = $gridUnit.width();
 
-  var horzCount = Math.ceil($customGrid.width() / gridUnitWidth)+5;
-  var vertCount = Math.ceil($customGrid.height() / gridUnitHeight)+5;
+  var horzCount = 10;
+  var vertCount = 10;
 
   var totalGridItems = horzCount * vertCount;
   for (var i = 0; i < totalGridItems; i++) {
