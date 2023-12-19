@@ -16,7 +16,6 @@ body {
   display: grid; /* Use grid display for the container */
   grid-template-columns: repeat(auto-fill, minmax(10vh, 0fr)); /* Adjust column size as needed */ /* Adjust the gap between items as needed */
   background-color: transparent;
-  overflow:hidden;
 }
 
 
