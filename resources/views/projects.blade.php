@@ -4,7 +4,7 @@
             <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/3 px-4 mb-4">
                 <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="{{ $card->url }}">
-                        <img class="rounded-t-lg w-full h-full object-cover object-center" src="{{ $card->image }}" alt="Card Image">
+                        <img style="width: 100%; height: auto;" class="rounded-t-lg" src="{{ $card->image }}" alt="Card Image">
                     </a>
                     <div class="p-5">
                         <a href="{{ $card->url }}">
