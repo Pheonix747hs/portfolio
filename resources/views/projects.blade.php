@@ -1,8 +1,8 @@
 <div class="container mx-auto my-8 max-h-screen pointer-events-none" style="z-index: 2">
     <div class="flex flex-wrap -mx-4">
         @foreach ($cardDataArray as $card)
-            <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-4 pointer-events-auto">
-                <div class="max-w-sm bg-gray-800 border border-gray-700 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-4 ">
+                <div class="max-w-sm bg-gray-800 border border-gray-700 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 pointer-events-auto">
                     <a>
                         <img class="rounded-t-lg w-full h-40 object-cover object-center" src="{{ $card->image }}" alt="" />
                     </a>
