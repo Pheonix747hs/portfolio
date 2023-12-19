@@ -1,13 +1,13 @@
 // custom-script.js
-function yourCustomFunction() {
+$(document).ready(function () {
   var $customGrid = $('.grid2');
   var $gridUnit = $('.grid__item');
 
   var gridUnitHeight = $gridUnit.height();
   var gridUnitWidth = $gridUnit.width();
 
-  var horzCount = Math.ceil($customGrid.width() / gridUnitWidth) + 5;
-  var vertCount = Math.ceil($customGrid.height() / gridUnitHeight) + 5;
+  var horzCount = Math.floor($customGrid.width() / gridUnitWidth);
+  var vertCount = Math.floor($customGrid.height() / gridUnitHeight);
 
   var totalGridItems = horzCount * vertCount;
   for (var i = 0; i < totalGridItems; i++) {
@@ -42,12 +42,5 @@ function yourCustomFunction() {
   // Remove touch-hover class when touch ends
   $gridUnit.on('touchend', function () {
     $(this).removeClass('touch-hover');
-  });
-}
-
-// Run the function on document ready
-$(document).ready(function () {
-  yourCustomFunction();
-
   });
 });
