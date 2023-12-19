@@ -15,7 +15,7 @@ class CreateProjectsTable extends Migration
     {
         Schema::create('projects', function (Blueprint $table) {
             $table->id();
-            $table->text('image'); // Store base64-encoded image
+            $table->longBlob('image'); // Change from longText to longBlob
             $table->string('title');
             $table->text('info');
             $table->string('url');
