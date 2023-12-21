@@ -10,7 +10,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="assets\style.css">
 </head>
-<body class="flex flex-col items-center h-screen">
+<body class="flex flex-col items-center h-screen " style="overflow: hidden">
 
   <div class="grid2">
     <div class="grid__item"></div>
