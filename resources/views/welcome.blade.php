@@ -9,8 +9,25 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <title>Portfolio</title>
     <link rel="stylesheet" href="assets\style.css">
+    <style>
+      .container2 
+      {
+        height: 100vh; /* Set a fixed height for the container */
+        overflow-y: scroll; /* Allow vertical scrolling */
+      }
+      .no-scrollbar 
+      {
+     -ms-overflow-style: none;  /* IE and Edge */
+     scrollbar-width: none;  /* Firefox */
+     }
+
+     .no-scrollbar::-webkit-scrollbar 
+     {
+      display: none;
+     }
+    </style>
 </head>
-<body class="flex flex-col items-center h-screen " style="overflow: hidden">
+<body class="flex flex-col items-center h-screen m-0 overflow-hidden" >
 
   <div class="grid2">
     <div class="grid__item"></div>
@@ -39,7 +56,7 @@
     </div>
   </nav>
 
-  <main id="main_content" class=" pointer-events-none flex-1 p-20 items-center justify-center text-white" style="z-index: 2;">
+  <main id="main_content" class=" pointer-events-none flex-1 p-20 items-center justify-center text-white container2 no-scrollbar" style="z-index: 2;">
     <!-- Initial Content -->
     <div>
       <div class="text-center" style="width: auto; padding: 16px; solid white;">
