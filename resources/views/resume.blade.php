@@ -1,3 +1,5 @@
 <div>
-    <!-- Simplicity is the ultimate sophistication. - Leonardo da Vinci -->
+   <div class=" grid items-center">
+    <h1>resume will be uploaded soon</h1>
+   </div>
 </div>
