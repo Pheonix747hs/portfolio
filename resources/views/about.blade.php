@@ -70,7 +70,7 @@
                 Skills
             </div>
             <div class="row-wise-content">
-                <div class="grid grid-cols-4 gap-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     <div class="skill-card">
                         <img src="assets\svgtopng\c.png" alt="" style="height: 25px; width: 25px" class="mr-2">
                         <b>C</b>
