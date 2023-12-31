@@ -32,14 +32,21 @@
     }
 
     .skill-card {
-        background-color: #282c34; /* Set background color */
-        color: white;
-        padding: 15px;
-        margin: 10px;
-        border-radius: 8px;
-        max-width: 300px; /* Set maximum width for each card */
-        text-align: right; /* Align text to the right */
-    }
+    background-color: #282c34; /* Set background color */
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    max-width: 300px; /* Set maximum width for each card */
+    
+    /* Center content using Flexbox */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Optional: Center text within the card */
+}
+ 
 
 </style>
 <div class="container mx-auto my-8 pointer-events-auto " style="z-index: 2; position: relative;">
@@ -54,7 +61,7 @@
                     <h6>Learn, Adapt, Excel.</h6>
                 </div>
                 <p>Hey, I'm Ojasvin Borawke, a student at SPPU. I'm currently in my third year of my Bachelors in Computer Engineering (graduating 2025).</p>
-                <p>Coding, one of my greatest passions, is just the tip of the iceberg. I've dipped my hand in a lot of activities like video editing, Game making, going to the gym, anime/TV shows, and last but not least, Badminton.</p>
+                <p>Coding, one of my greatest passions, is just the tip of the iceberg. I've dipped my hand in a lot of activities like video editing, Game making, going to the gym, anime/TV shows, along with a few sports</p>
                 <p>While I don't do it all the time, I love tinkering with my side projects. One of my favorites to work on was my Spotify controller I made in the semi well-known AHK language, you can check it out in the projects tab. Currently, I'm working on a WPF pdf editing application in C# along with this website</p>
             </div>
         </div>
@@ -62,35 +69,38 @@
             <div class="text-4xl mb-4 " style="--tw-text-opacity: 1;color: rgb(252 111 3 / var(--tw-text-opacity));">
                 Skills
             </div>
-            <div>
-                <div class="skill-card">
-                    <img src="assets\svgtopng\c.png" alt="" style="height: 25px; width: 25px" class="mr-2">
-                    <b>C</b>
-                </div>
-                <div class="skill-card">
-                    <img src="assets\svgtopng\c--4.png" alt="" style="height: 25px; width: 25px" class="mr-2">
-                    <b>C#</b>
-                </div>
-                <div class="skill-card">
-                    <img src="assets\svgtopng\java.png" alt="" style="height: 25px; width: 25px" class="mr-2">
-                    <b>Java</b>
-                </div>
-                <div class="skill-card">
-                    <img src="assets\svgtopng\html-1.png" alt="" style="height: 25px; width: 25px" class="mr-2">
-                    <img src="assets\svgtopng\css-3.png" alt="" style="height: 25px; width: 25px" class="mr-2">
-                    <b>HTML5 & CSS</b>
-                </div>
-                <div class="skill-card">
-                    <img src="assets\svgtopng\javascript-39395.png" alt="" style="height: 25px; width: 25px" class="mr-2">
-                    <b>JavaScript</b>
-                </div>
-                <div class="skill-card">
-                    <img src="assets\svgtopng\laravel-2.png" alt="" style="height: 25px; width: 25px" class="mr-2">
-                    <b>Laravel[Beginner]</b>
-                </div>
-                <div class="skill-card">
-                    <img src="assets\svgtopng\ahklogo.png" alt="" style="height: 25px; width: 50px" class="mr-2">
-                    <b>AutoHotKey</b>
+            <div class="row-wise-content">
+                <div class="grid grid-cols-4 gap-4">
+                    <div class="skill-card">
+                        <img src="assets\svgtopng\c.png" alt="" style="height: 25px; width: 25px" class="mr-2">
+                        <b>C</b>
+                    </div>
+                    <div class="skill-card">
+                        <img src="assets\svgtopng\c--4.png" alt="" style="height: 25px; width: 25px" class="mr-2">
+                        <b>C#</b>
+                    </div>
+                    <div class="skill-card">
+                        <img src="assets\svgtopng\java.png" alt="" style="height: 25px; width: 25px" class="mr-2">
+                        <b>Java</b>
+                    </div>
+                    <div class="skill-card">
+                        <span><img src="assets\svgtopng\html-1.png" alt="" style="height: 25px; width: 25px" class="mr-2">
+                            <img src="assets\svgtopng\css-3.png" alt="" style="height: 25px; width: 25px" class="mr-2"></span>
+                        <b>HTML5 & CSS</b>
+                    </div>
+                    <div class="skill-card">
+                        <img src="assets\svgtopng\javascript-39395.png" alt="" style="height: 25px; width: 25px" class="mr-2">
+                        <b>JavaScript</b>
+                    </div>
+                    <div class="skill-card">
+                        <img src="assets\svgtopng\laravel-2.png" alt="" style="height: 25px; width: 25px" class="mr-2">
+                        <b>Laravel</b>
+                    </div>
+                    <div class="skill-card">
+                        <img src="assets\svgtopng\ahklogo.png" alt="" style="height: 25px; width: 50px" class="mr-2">
+                        <b>AutoHotKey</b>
+                    </div>
+                    
                 </div>
             </div>
         </div>
