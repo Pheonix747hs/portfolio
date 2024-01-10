@@ -7,6 +7,7 @@
     <meta name="referrer" content="no-referrer">
     @vite('resources/css/app.css')
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
     <title>Portfolio</title>
     <link rel="stylesheet" href="assets\style.css">
     <style>
@@ -77,11 +78,7 @@
     function loadView(viewName) {
         $('#main_content').load('/' + viewName);
     }
-    function submitForm() {
-        // Handle form submission logic here
-        // You can use AJAX to send the form data to the server
-        alert('Form submitted!');
-    }
+
   </script>
   <script>
     function reloadOriginalContent() {

@@ -45,19 +45,22 @@
     align-items: center;
     justify-content: center;
     text-align: center; /* Optional: Center text within the card */
+
+    @media screen {
+        
+    }
 }
  
 
 </style>
 <div class="container mx-auto my-8 pointer-events-auto " style="z-index: 2; position: relative;">
     <div>
-        <div class="about-container">
-            <div class="image-container">
-                <img src="assets/abt_pic.jpg" alt="About Image" style="height: 36vh; width: 19vw;">
+        <div class="about-container flex flex-col lg:flex-row">
+            <div class="image-container lg:order-2">
+                <img src="assets/abt_pic.jpg" alt="About Image" class="w-full h-auto lg:h-36 lg:w-19vw">
             </div>
             <div class="text-container align-top ml-1">
-                <div class="text-4xl mb-4 text-teal-600" style="--tw-text-opacity: 1;
-                color: rgb(13 148 136 / var(--tw-text-opacity));">
+                <div class="text-4xl mb-4 text-teal-600" style="--tw-text-opacity: 1; color: rgb(13 148 136 / var(--tw-text-opacity));">
                     <h6>Learn, Adapt, Excel.</h6>
                 </div>
                 <p>Hey, I'm Ojasvin Borawke, a student at SPPU. I'm currently in my third year of my Bachelors in Computer Engineering (graduating 2025).</p>
@@ -65,6 +68,7 @@
                 <p>While I don't do it all the time, I love tinkering with my side projects. One of my favorites to work on was my Spotify controller I made in the semi well-known AHK language, you can check it out in the projects tab. Currently, I'm working on a WPF pdf editing application in C# along with this website</p>
             </div>
         </div>
+        
         <div class="skills-container">
             <div class="text-4xl mb-4 " style="--tw-text-opacity: 1;color: rgb(252 111 3 / var(--tw-text-opacity));">
                 Skills

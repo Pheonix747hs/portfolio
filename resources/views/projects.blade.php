@@ -1,7 +1,6 @@
 <style>
     .content2 {
         padding: 20px;
-        /* Add more content or adjust styling as needed */
     }
 </style>
 
