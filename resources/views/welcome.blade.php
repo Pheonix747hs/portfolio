@@ -51,7 +51,7 @@
       <button onclick="loadView('lets_talk')" class="text-white py-3 px-4 rounded-md transition duration-150 hover:bg-gray-700 focus:outline-none focus:ring focus:border-blue-300">
         Let's Talk
       </button>
-      <button onclick="loadView('resume')" class="text-white py-3 px-4 rounded-md transition duration-150 hover:bg-gray-700 focus:outline-none focus:ring focus:border-blue-300">
+      <button onclick="downloadFile()" class="text-white py-3 px-4 rounded-md transition duration-150 hover:bg-gray-700 focus:outline-none focus:ring focus:border-blue-300">
         <div class="flex justify-center">Resume <img src="assets/download.png" class=" mt-1" alt="" style="height: 2vh; width:2vh"></div>
       </button>
     </div>
@@ -85,5 +85,13 @@
       location.reload();
     }
   </script>
+  <script>
+      function downloadFile() {
+         var page = 'https://drive.google.com/file/d/11D5Wr7EFRJLIe447iaWs-MGcefpRi3md/view?usp=sharing';
+         var myWindow = window.open(page, "_blank", "scrollbars=yes,width=400,height=500,top=300");
+         myWindow.focus();
+ 
+       }
+   </script>
 </body>
 </html>
