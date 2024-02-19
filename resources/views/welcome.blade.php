@@ -64,7 +64,7 @@
         <img src="assets\white bg photo 128kb.jpeg" alt="Square Image" style="width: 25vh; height: 25vh; border-radius:80%">
       </div>
       <div class="text-center" style="width: auto;height:auto ;padding: 16px; solid white;">
-        <div><h2>Hi, my name is Ojasvin Borawke</h2></div>
+        <div><h2>Hi, my name is Ojasvin S Borawke</h2></div>
         <div><p>I am a <span class="sentence"></span></p></div>
       </div>
     </div>
